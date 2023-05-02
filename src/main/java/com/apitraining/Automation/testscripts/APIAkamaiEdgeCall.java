@@ -1,12 +1,12 @@
 package com.apitraining.Automation.testscripts;
 
+
 import com.apitraining.Automation.util.APIutil;
 
-public class APIPatchCall {
-
+public class APIAkamaiEdgeCall {
 	public static void main(String[] args) {
 		APIutil util = new APIutil();
-		util.apipatchcall();;
+		util.akamaiauth();
 	}
 
 }

@@ -15,5 +15,17 @@
 			<artifactId>json</artifactId>
 			<version>20230227</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.oauth-client</groupId>
+			<artifactId>google-oauth-client</artifactId>
+			<version>1.31.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/aws.smithy.kotlin/http-auth-aws-jvm -->
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk</artifactId>
+			<version>1.12.459</version>
+		</dependency>
 	</dependencies>
 </project>
