@@ -1,6 +1,6 @@
 package com.apitraining.Automation.testscripts;
 
-import com.apitraining.Automation.util.APIutil;
+import com.apitraining.Automation.utils.APIutil;
 
 public class APIDigestAuthCall {
 

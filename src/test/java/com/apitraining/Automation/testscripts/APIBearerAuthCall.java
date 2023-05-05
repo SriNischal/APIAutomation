@@ -3,7 +3,9 @@ package com.apitraining.Automation.testscripts;
 
 import org.testng.annotations.Test;
 
-import com.apitraining.Automation.util.APIutil;
+import com.apitraining.Automation.utils.APIutil;
+
+
 
 
 public class APIBearerAuthCall {

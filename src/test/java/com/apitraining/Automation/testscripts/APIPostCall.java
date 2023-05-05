@@ -1,6 +1,6 @@
 package com.apitraining.Automation.testscripts;
 
-import com.apitraining.Automation.util.Helperutil;
+import com.apitraining.Automation.utils.Helperutil;
 
 public class APIPostCall {
 

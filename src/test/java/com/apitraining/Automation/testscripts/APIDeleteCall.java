@@ -4,14 +4,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.apitraining.Automation.interfac.APIInterface;
-import com.apitraining.Automation.util.APIutil;
-import com.apitraining.Automation.util.Helperutil;
+import com.apitraining.Automation.utils.APIutil;
+import com.apitraining.Automation.utils.Helperutil;
+
 
 
 public class APIDeleteCall{
 	@Test
 	public void deletecall() {
-		Helperutil util = new Helperutil();
+		APIutil util = new APIutil();
 		util.apideletecall();
 	}
 }

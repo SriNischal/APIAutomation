@@ -1,6 +1,8 @@
 package com.apitraining.Automation.utils;
 
+import java.io.File;
 import java.io.FileInputStream;
+
 import java.util.Properties;
 
 import com.apitraining.Automation.interfac.APIInterface;
@@ -11,9 +13,12 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class APIutil implements APIInterface{
+	 File src = new File("src\\main\\resources\\config.properties");
+     FileInputStream fis = new FileInputStream(src);
+     Properties properties = new Properties();
 	
 	public void apideletecall() {
-		Response response = RestAssured.given().baseUri().param(parameter,value).when().delete("/users").then().log().all().extract().response();
+		Response response = RestAssured.given().baseUri(properties.getProperty("BaseURL")).param(prop.getProperty("parameter"),prop.getProperty("value")).when().delete("/users").then().log().all().extract().response();
 		System.out.println(response.getBody().asString());
 	}
 
