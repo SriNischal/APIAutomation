@@ -2,15 +2,16 @@ package com.apitraining.Automation.testscripts;
 
 import org.testng.annotations.Test;
 
-import com.apitraining.Automation.utils.Helperutil;
+import com.apitraining.Automation.utils.APIutil;
 
 
 
-public class APIPutCall extends Testngclass{
+
+public class APIPutCall {
 
 	@Test
 	public void putcall() {
-		Helperutil util = new Helperutil();
+		APIutil util = new APIutil();
 		util.apiputcall();
 	}
 
